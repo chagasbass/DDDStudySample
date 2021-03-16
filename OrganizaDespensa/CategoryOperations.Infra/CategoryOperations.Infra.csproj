@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OperacoesDeUsuario.Domain\OperacoesDeUsuario.Domain\CategoryOperations.Core.csproj" />
+    <ProjectReference Include="..\OrganizaDespesa.Infra.Core\OrganizaDespesa.Infra.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OrganizaDespensa.SharedKernel.Core">
+      <HintPath>..\..\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\bin\Debug\net5.0\OrganizaDespensa.SharedKernel.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

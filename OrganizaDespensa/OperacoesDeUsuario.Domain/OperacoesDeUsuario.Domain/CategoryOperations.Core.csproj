@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flunt" Version="2.0.2" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OrganizaDespensa.SharedKernel.Core">
+      <HintPath>..\..\..\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\bin\Debug\net5.0\OrganizaDespensa.SharedKernel.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

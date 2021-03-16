@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\thiago.chagas\.nuget\packages\mongodb.driver.core\2.12.0\contentFiles\any\netstandard2.1\Core\Compression\Snappy\lib\win\snappy32.dll" />
+    <Content Remove="C:\Users\thiago.chagas\.nuget\packages\mongodb.driver.core\2.12.0\contentFiles\any\netstandard2.1\Core\Compression\Snappy\lib\win\snappy64.dll" />
+    <Content Remove="C:\Users\thiago.chagas\.nuget\packages\mongodb.driver.core\2.12.0\contentFiles\any\netstandard2.1\Core\Compression\Zstandard\lib\win\libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OperacoesDeUsuario.Core\OperacoesDeUsuario.Core\UserOperations.Core.csproj" />
+    <ProjectReference Include="..\OrganizaDespesa.Infra.Core\OrganizaDespesa.Infra.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OrganizaDespensa.SharedKernel.Core">
+      <HintPath>..\..\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\bin\Debug\net5.0\OrganizaDespensa.SharedKernel.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\thiago.chagas\.nuget\packages\mongodb.driver.core\2.12.0\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\thiago.chagas\.nuget\packages\mongodb.driver.core\2.12.0\build\../runtimes/win/native/snappy32.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\thiago.chagas\.nuget\packages\mongodb.driver.core\2.12.0\build\../runtimes/win/native/snappy64.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\thiago.chagas\.nuget\packages\mongodb.driver.core\2.12.0\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\thiago.chagas\.nuget\packages\mongodb.driver.core\2.12.0\build\../runtimes/win/native/snappy32.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\thiago.chagas\.nuget\packages\mongodb.driver.core\2.12.0\build\../runtimes/win/native/snappy64.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\thiago.chagas\.nuget\packages\mongodb.driver.core\2.12.0\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.12.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.12.0" />
+  </ItemGroup>
+
+</Project>

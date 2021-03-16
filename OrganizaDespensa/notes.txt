@@ -1,0 +1,4 @@
+https://imasters.com.br/back-end/mediator-pattern-com-mediatr-asp-net-core-2-2
+http://www.macoratti.net/20/07/aspc_mediatr1.htm
+https://developpaper.com/asp-net-core-uses-mediatr-to-publish-subscribe-in-process-details/
+http://www.kamilgrzybek.com/design/how-to-publish-and-handle-domain-events/

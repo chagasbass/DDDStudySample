@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "2JbWY53f/A6FoU4J7UkIM2RssfvSG1qDLq+wpXtuqZCJ+0VvidTqigwsbqr69O/bC0CVwjPPNHsLxJ4O32+HzA==",
+  "success": true,
+  "projectFilePath": "C:\\devs\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thiago.chagas\\.nuget\\packages\\flunt\\2.0.2\\flunt.2.0.2.nupkg.sha512",
+    "C:\\Users\\thiago.chagas\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\thiago.chagas\\.nuget\\packages\\mongodb.bson\\2.12.0\\mongodb.bson.2.12.0.nupkg.sha512",
+    "C:\\Users\\thiago.chagas\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
