@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OperacoesDeUsuario.Core\OperacoesDeUsuario.Core\UserOperations.Core.csproj" />
     <ProjectReference Include="..\OrganizaDespesa.Infra.Core\OrganizaDespesa.Infra.Core.csproj" />
+    <ProjectReference Include="..\UserOperations.Core\UserOperations.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

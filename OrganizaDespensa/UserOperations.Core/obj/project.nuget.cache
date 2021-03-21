@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cqUqoqoe0ecbu1Y++/XfPC4oYzwMZW28HUHZDfGq357dm6T2juXQmz3ClaW4oF0TdupP2EkE4ab8U7tq18DXLw==",
+  "success": true,
+  "projectFilePath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\UserOperations.Core\\UserOperations.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thiago.chagas\\.nuget\\packages\\flunt\\2.0.2\\flunt.2.0.2.nupkg.sha512",
+    "C:\\Users\\thiago.chagas\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

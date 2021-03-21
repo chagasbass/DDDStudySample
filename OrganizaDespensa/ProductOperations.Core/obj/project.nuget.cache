@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "if7/bKqyffuQgh3hE6AsoyPeJ9UUnhwAHFID/eDj5Zp75vDT7+oLJyY898mUe3id61dM1EaXhkXaSi534eet6Q==",
+  "dgSpecHash": "v8udJbkv0AR17hf3JfI64CEdHARWRnQSF/z1DwgA1MvI8fUq2pGnEZ7h4Hq2PMpMHpaH0zZ8UD3PBEr89UkFlg==",
   "success": true,
-  "projectFilePath": "C:\\devs\\OrganizaDespensa\\ProductOperations.Core\\ProductOperations.Core.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\ProductOperations.Core\\ProductOperations.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thiago.chagas\\.nuget\\packages\\flunt\\2.0.2\\flunt.2.0.2.nupkg.sha512",
+    "C:\\Users\\thiago.chagas\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

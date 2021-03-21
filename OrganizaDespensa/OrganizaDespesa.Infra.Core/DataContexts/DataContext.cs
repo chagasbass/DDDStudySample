@@ -1,8 +1,9 @@
 ﻿using CategoryOperations.Core.Entities;
 using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
-using OperacoesDeUsuario.Core.Entities;
+using ProductOperations.Core.Entities;
 using System;
+using UserOperations.Core.Entities;
 
 namespace OrganizaDespensa.Infra.Core.DataContexts
 {
@@ -37,7 +38,7 @@ namespace OrganizaDespensa.Infra.Core.DataContexts
 
         public IMongoCollection<User> Users => MongoConnection.GetCollection<User>("Users");
         public IMongoCollection<Category> Categories => MongoConnection.GetCollection<Category>("Categories");
-        //public IMongoCollection<Produto> Produtos => ConexaoMongo.GetCollection<Produto>("Produtos");
+        public IMongoCollection<Product> Products => MongoConnection.GetCollection<Product>("Products");
         //public IMongoCollection<UnidadeDeMedida> UnidadesDeMedida => ConexaoMongo.GetCollection<UnidadeDeMedida>("UnidadesDeMedida");
         //public IMongoCollection<DetalhesDoProblema> DetalhesDoProblema => ConexaoMongo.GetCollection<DetalhesDoProblema>("DetalhesDoProblema");
 

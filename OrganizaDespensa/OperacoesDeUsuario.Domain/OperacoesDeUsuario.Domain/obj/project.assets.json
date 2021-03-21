@@ -67,11 +67,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Domain\\OperacoesDeUsuario.Domain\\CategoryOperations.Core.csproj",
+      "projectUniqueName": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OperacoesDeUsuario.Domain\\OperacoesDeUsuario.Domain\\CategoryOperations.Core.csproj",
       "projectName": "CategoryOperations.Core",
-      "projectPath": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Domain\\OperacoesDeUsuario.Domain\\CategoryOperations.Core.csproj",
+      "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OperacoesDeUsuario.Domain\\OperacoesDeUsuario.Domain\\CategoryOperations.Core.csproj",
       "packagesPath": "C:\\Users\\thiago.chagas\\.nuget\\packages\\",
-      "outputPath": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Domain\\OperacoesDeUsuario.Domain\\obj\\",
+      "outputPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OperacoesDeUsuario.Domain\\OperacoesDeUsuario.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thiago.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",

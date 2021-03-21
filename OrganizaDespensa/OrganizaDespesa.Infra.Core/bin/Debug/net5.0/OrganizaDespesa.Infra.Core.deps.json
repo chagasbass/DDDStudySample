@@ -12,6 +12,7 @@
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
           "MongoDB.Driver": "2.12.0",
           "MongoDB.Driver.Core": "2.12.0",
+          "ProductOperations.Core": "1.0.0",
           "UserOperations.Core": "1.0.0"
         },
         "runtime": {
@@ -171,6 +172,15 @@
           "CategoryOperations.Core.dll": {}
         }
       },
+      "ProductOperations.Core/1.0.0": {
+        "dependencies": {
+          "Flunt": "2.0.2",
+          "MediatR": "9.0.0"
+        },
+        "runtime": {
+          "ProductOperations.Core.dll": {}
+        }
+      },
       "UserOperations.Core/1.0.0": {
         "dependencies": {
           "Flunt": "2.0.2",
@@ -295,6 +305,11 @@
       "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
     },
     "CategoryOperations.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProductOperations.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

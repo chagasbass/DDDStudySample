@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\devs\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core.csproj": {}
+    "C:\\devs\\DDDStudySample\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core.csproj": {}
   },
   "projects": {
-    "C:\\devs\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core.csproj": {
+    "C:\\devs\\DDDStudySample\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\devs\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core.csproj",
+        "projectUniqueName": "C:\\devs\\DDDStudySample\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core.csproj",
         "projectName": "OrganizaDespensa.SharedKernel.Core",
-        "projectPath": "C:\\devs\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core.csproj",
+        "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core.csproj",
         "packagesPath": "C:\\Users\\thiago.chagas\\.nuget\\packages\\",
-        "outputPath": "C:\\devs\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core\\obj\\",
+        "outputPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa.SharedKernel.Core\\OrganizaDespensa.SharedKernel.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thiago.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",

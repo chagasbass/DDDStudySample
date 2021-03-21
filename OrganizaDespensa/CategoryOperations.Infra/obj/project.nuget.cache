@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IELPAw6AVkYRWbAVh0IwREzGLW9WzqEUrOMa10kKxD27tzIMNoWlDD6UTOoyRv7AV73AjyNgJ1iyJHiGo2CZrw==",
+  "dgSpecHash": "j/K4EONljjMnjAeQjbKpQTOXiuouhbSpsozqg2fSXxf+rezuIOZHKyRMmbJWXL7ECiug9J58+dQTWqVdQKu2AQ==",
   "success": true,
-  "projectFilePath": "C:\\devs\\OrganizaDespensa\\CategoryOperations.Infra\\CategoryOperations.Infra.csproj",
+  "projectFilePath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\CategoryOperations.Infra\\CategoryOperations.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thiago.chagas\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\thiago.chagas\\.nuget\\packages\\flunt\\2.0.2\\flunt.2.0.2.nupkg.sha512",

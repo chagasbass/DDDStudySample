@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\UserOperations.Core.csproj": {}
+    "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\UserOperations.Core.csproj": {}
   },
   "projects": {
-    "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\UserOperations.Core.csproj": {
+    "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\UserOperations.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\UserOperations.Core.csproj",
+        "projectUniqueName": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\UserOperations.Core.csproj",
         "projectName": "UserOperations.Core",
-        "projectPath": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\UserOperations.Core.csproj",
+        "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\UserOperations.Core.csproj",
         "packagesPath": "C:\\Users\\thiago.chagas\\.nuget\\packages\\",
-        "outputPath": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\obj\\",
+        "outputPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thiago.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",

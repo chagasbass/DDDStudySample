@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\devs\\OrganizaDespensa\\ProductOperations.Core\\ProductOperations.Core.csproj": {}
+    "C:\\devs\\DDDStudySample\\OrganizaDespensa\\ProductOperations.Core\\ProductOperations.Core.csproj": {}
   },
   "projects": {
-    "C:\\devs\\OrganizaDespensa\\ProductOperations.Core\\ProductOperations.Core.csproj": {
+    "C:\\devs\\DDDStudySample\\OrganizaDespensa\\ProductOperations.Core\\ProductOperations.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\devs\\OrganizaDespensa\\ProductOperations.Core\\ProductOperations.Core.csproj",
+        "projectUniqueName": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\ProductOperations.Core\\ProductOperations.Core.csproj",
         "projectName": "ProductOperations.Core",
-        "projectPath": "C:\\devs\\OrganizaDespensa\\ProductOperations.Core\\ProductOperations.Core.csproj",
+        "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\ProductOperations.Core\\ProductOperations.Core.csproj",
         "packagesPath": "C:\\Users\\thiago.chagas\\.nuget\\packages\\",
-        "outputPath": "C:\\devs\\OrganizaDespensa\\ProductOperations.Core\\obj\\",
+        "outputPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\ProductOperations.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thiago.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

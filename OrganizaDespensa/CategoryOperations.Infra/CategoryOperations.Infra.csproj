@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OperacoesDeUsuario.Domain\OperacoesDeUsuario.Domain\CategoryOperations.Core.csproj" />
     <ProjectReference Include="..\OrganizaDespesa.Infra.Core\OrganizaDespesa.Infra.Core.csproj" />
   </ItemGroup>
 

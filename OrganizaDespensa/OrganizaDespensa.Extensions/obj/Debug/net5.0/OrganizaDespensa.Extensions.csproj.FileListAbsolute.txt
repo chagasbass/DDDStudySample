@@ -1,0 +1,12 @@
+C:\devs\DDDStudySample\OrganizaDespensa\OrganizaDespensa.Extensions\bin\Debug\net5.0\OrganizaDespensa.Extensions.deps.json
+C:\devs\DDDStudySample\OrganizaDespensa\OrganizaDespensa.Extensions\bin\Debug\net5.0\OrganizaDespensa.Extensions.dll
+C:\devs\DDDStudySample\OrganizaDespensa\OrganizaDespensa.Extensions\bin\Debug\net5.0\ref\OrganizaDespensa.Extensions.dll
+C:\devs\DDDStudySample\OrganizaDespensa\OrganizaDespensa.Extensions\bin\Debug\net5.0\OrganizaDespensa.Extensions.pdb
+C:\devs\DDDStudySample\OrganizaDespensa\OrganizaDespensa.Extensions\obj\Debug\net5.0\OrganizaDespensa.Extensions.csprojAssemblyReference.cache
+C:\devs\DDDStudySample\OrganizaDespensa\OrganizaDespensa.Extensions\obj\Debug\net5.0\OrganizaDespensa.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\devs\DDDStudySample\OrganizaDespensa\OrganizaDespensa.Extensions\obj\Debug\net5.0\OrganizaDespensa.Extensions.AssemblyInfoInputs.cache
+C:\devs\DDDStudySample\OrganizaDespensa\OrganizaDespensa.Extensions\obj\Debug\net5.0\OrganizaDespensa.Extensions.AssemblyInfo.cs
+C:\devs\DDDStudySample\OrganizaDespensa\OrganizaDespensa.Extensions\obj\Debug\net5.0\OrganizaDespensa.Extensions.csproj.CoreCompileInputs.cache
+C:\devs\DDDStudySample\OrganizaDespensa\OrganizaDespensa.Extensions\obj\Debug\net5.0\OrganizaDespensa.Extensions.dll
+C:\devs\DDDStudySample\OrganizaDespensa\OrganizaDespensa.Extensions\obj\Debug\net5.0\ref\OrganizaDespensa.Extensions.dll
+C:\devs\DDDStudySample\OrganizaDespensa\OrganizaDespensa.Extensions\obj\Debug\net5.0\OrganizaDespensa.Extensions.pdb

@@ -1,8 +1,8 @@
 ﻿using MongoDB.Driver;
-using OperacoesDeUsuario.Core.Entities;
-using OperacoesDeUsuario.Core.Repositories;
 using OrganizaDespensa.Infra.Core.DataContexts;
 using System.Threading.Tasks;
+using UserOperations.Core.Entities;
+using UserOperations.Core.Repositories;
 
 namespace UserOperations.Infra.Repositories
 {
@@ -17,7 +17,7 @@ namespace UserOperations.Infra.Repositories
 
         public async Task<User> CreateUserAsync(User user)
         {
-            await  _context.Users.InsertOneAsync(user);
+            await _context.Users.InsertOneAsync(user);
 
             return user;
         }

@@ -6,12 +6,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.13" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OperacoesDeUsuario.Core\OperacoesDeUsuario.Core\UserOperations.Core.csproj" />
+    <ProjectReference Include="..\CategoryOperations.Infra\CategoryOperations.Infra.csproj" />
+    <ProjectReference Include="..\OrganizaDespensa.Extensions\OrganizaDespensa.Extensions.csproj" />
+    <ProjectReference Include="..\ProductOperations.Core\ProductOperations.Core.csproj" />
+    <ProjectReference Include="..\ProductOperations.Infra\ProductOperations.Infra.csproj" />
+    <ProjectReference Include="..\UserOperations.Infra\UserOperations.Infra.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,17 +1,81 @@
 {
   "format": 1,
   "restore": {
-    "C:\\devs\\OrganizaDespensa\\CategoryOperations.Infra\\CategoryOperations.Infra.csproj": {}
+    "C:\\devs\\DDDStudySample\\OrganizaDespensa\\CategoryOperations.Infra\\CategoryOperations.Infra.csproj": {}
   },
   "projects": {
-    "C:\\devs\\OrganizaDespensa\\CategoryOperations.Infra\\CategoryOperations.Infra.csproj": {
+    "C:\\devs\\DDDStudySample\\OrganizaDespensa\\CategoryOperations.Core\\CategoryOperations.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\devs\\OrganizaDespensa\\CategoryOperations.Infra\\CategoryOperations.Infra.csproj",
-        "projectName": "CategoryOperations.Infra",
-        "projectPath": "C:\\devs\\OrganizaDespensa\\CategoryOperations.Infra\\CategoryOperations.Infra.csproj",
+        "projectUniqueName": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\CategoryOperations.Core\\CategoryOperations.Core.csproj",
+        "projectName": "CategoryOperations.Core",
+        "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\CategoryOperations.Core\\CategoryOperations.Core.csproj",
         "packagesPath": "C:\\Users\\thiago.chagas\\.nuget\\packages\\",
-        "outputPath": "C:\\devs\\OrganizaDespensa\\CategoryOperations.Infra\\obj\\",
+        "outputPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\CategoryOperations.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thiago.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\devs\\DDDStudySample\\OrganizaDespensa\\CategoryOperations.Infra\\CategoryOperations.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\CategoryOperations.Infra\\CategoryOperations.Infra.csproj",
+        "projectName": "CategoryOperations.Infra",
+        "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\CategoryOperations.Infra\\CategoryOperations.Infra.csproj",
+        "packagesPath": "C:\\Users\\thiago.chagas\\.nuget\\packages\\",
+        "outputPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\CategoryOperations.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thiago.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +92,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Domain\\OperacoesDeUsuario.Domain\\CategoryOperations.Core.csproj": {
-                "projectPath": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Domain\\OperacoesDeUsuario.Domain\\CategoryOperations.Core.csproj"
-              },
-              "C:\\devs\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\OrganizaDespesa.Infra.Core.csproj": {
-                "projectPath": "C:\\devs\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\OrganizaDespesa.Infra.Core.csproj"
+              "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\OrganizaDespesa.Infra.Core.csproj": {
+                "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\OrganizaDespesa.Infra.Core.csproj"
               }
             }
           }
@@ -65,142 +126,14 @@
         }
       }
     },
-    "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\UserOperations.Core.csproj": {
+    "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\OrganizaDespesa.Infra.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\UserOperations.Core.csproj",
-        "projectName": "UserOperations.Core",
-        "projectPath": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\UserOperations.Core.csproj",
-        "packagesPath": "C:\\Users\\thiago.chagas\\.nuget\\packages\\",
-        "outputPath": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\thiago.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "Flunt": {
-              "target": "Package",
-              "version": "[2.0.2, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Domain\\OperacoesDeUsuario.Domain\\CategoryOperations.Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Domain\\OperacoesDeUsuario.Domain\\CategoryOperations.Core.csproj",
-        "projectName": "CategoryOperations.Core",
-        "projectPath": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Domain\\OperacoesDeUsuario.Domain\\CategoryOperations.Core.csproj",
-        "packagesPath": "C:\\Users\\thiago.chagas\\.nuget\\packages\\",
-        "outputPath": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Domain\\OperacoesDeUsuario.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\thiago.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "Flunt": {
-              "target": "Package",
-              "version": "[2.0.2, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\devs\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\OrganizaDespesa.Infra.Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\devs\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\OrganizaDespesa.Infra.Core.csproj",
+        "projectUniqueName": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\OrganizaDespesa.Infra.Core.csproj",
         "projectName": "OrganizaDespesa.Infra.Core",
-        "projectPath": "C:\\devs\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\OrganizaDespesa.Infra.Core.csproj",
+        "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\OrganizaDespesa.Infra.Core.csproj",
         "packagesPath": "C:\\Users\\thiago.chagas\\.nuget\\packages\\",
-        "outputPath": "C:\\devs\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\obj\\",
+        "outputPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thiago.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -217,11 +150,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\UserOperations.Core.csproj": {
-                "projectPath": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\UserOperations.Core.csproj"
+              "C:\\devs\\DDDStudySample\\OrganizaDespensa\\CategoryOperations.Core\\CategoryOperations.Core.csproj": {
+                "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\CategoryOperations.Core\\CategoryOperations.Core.csproj"
               },
-              "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Domain\\OperacoesDeUsuario.Domain\\CategoryOperations.Core.csproj": {
-                "projectPath": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Domain\\OperacoesDeUsuario.Domain\\CategoryOperations.Core.csproj"
+              "C:\\devs\\DDDStudySample\\OrganizaDespensa\\ProductOperations.Core\\ProductOperations.Core.csproj": {
+                "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\ProductOperations.Core\\ProductOperations.Core.csproj"
+              },
+              "C:\\devs\\DDDStudySample\\OrganizaDespensa\\UserOperations.Core\\UserOperations.Core.csproj": {
+                "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\UserOperations.Core\\UserOperations.Core.csproj"
               }
             }
           }
@@ -247,6 +183,134 @@
             "MongoDB.Driver.Core": {
               "target": "Package",
               "version": "[2.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\devs\\DDDStudySample\\OrganizaDespensa\\ProductOperations.Core\\ProductOperations.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\ProductOperations.Core\\ProductOperations.Core.csproj",
+        "projectName": "ProductOperations.Core",
+        "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\ProductOperations.Core\\ProductOperations.Core.csproj",
+        "packagesPath": "C:\\Users\\thiago.chagas\\.nuget\\packages\\",
+        "outputPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\ProductOperations.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thiago.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\devs\\DDDStudySample\\OrganizaDespensa\\UserOperations.Core\\UserOperations.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\UserOperations.Core\\UserOperations.Core.csproj",
+        "projectName": "UserOperations.Core",
+        "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\UserOperations.Core\\UserOperations.Core.csproj",
+        "packagesPath": "C:\\Users\\thiago.chagas\\.nuget\\packages\\",
+        "outputPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\UserOperations.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thiago.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

@@ -229,6 +229,7 @@
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
           "MongoDB.Driver": "2.12.0",
           "MongoDB.Driver.Core": "2.12.0",
+          "ProductOperations.Core": "1.0.0",
           "UserOperations.Core": "1.0.0"
         },
         "compile": {
@@ -236,6 +237,20 @@
         },
         "runtime": {
           "bin/placeholder/OrganizaDespesa.Infra.Core.dll": {}
+        }
+      },
+      "ProductOperations.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Flunt": "2.0.2",
+          "MediatR": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProductOperations.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductOperations.Core.dll": {}
         }
       },
       "UserOperations.Core/1.0.0": {
@@ -601,18 +616,23 @@
     },
     "CategoryOperations.Core/1.0.0": {
       "type": "project",
-      "path": "../OperacoesDeUsuario.Domain/OperacoesDeUsuario.Domain/CategoryOperations.Core.csproj",
-      "msbuildProject": "../OperacoesDeUsuario.Domain/OperacoesDeUsuario.Domain/CategoryOperations.Core.csproj"
+      "path": "../CategoryOperations.Core/CategoryOperations.Core.csproj",
+      "msbuildProject": "../CategoryOperations.Core/CategoryOperations.Core.csproj"
     },
     "OrganizaDespesa.Infra.Core/1.0.0": {
       "type": "project",
       "path": "../OrganizaDespesa.Infra.Core/OrganizaDespesa.Infra.Core.csproj",
       "msbuildProject": "../OrganizaDespesa.Infra.Core/OrganizaDespesa.Infra.Core.csproj"
     },
+    "ProductOperations.Core/1.0.0": {
+      "type": "project",
+      "path": "../ProductOperations.Core/ProductOperations.Core.csproj",
+      "msbuildProject": "../ProductOperations.Core/ProductOperations.Core.csproj"
+    },
     "UserOperations.Core/1.0.0": {
       "type": "project",
-      "path": "../OperacoesDeUsuario.Core/OperacoesDeUsuario.Core/UserOperations.Core.csproj",
-      "msbuildProject": "../OperacoesDeUsuario.Core/OperacoesDeUsuario.Core/UserOperations.Core.csproj"
+      "path": "../UserOperations.Core/UserOperations.Core.csproj",
+      "msbuildProject": "../UserOperations.Core/UserOperations.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -629,11 +649,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\devs\\OrganizaDespensa\\UserOperations.Infra\\UserOperations.Infra.csproj",
+      "projectUniqueName": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\UserOperations.Infra\\UserOperations.Infra.csproj",
       "projectName": "UserOperations.Infra",
-      "projectPath": "C:\\devs\\OrganizaDespensa\\UserOperations.Infra\\UserOperations.Infra.csproj",
+      "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\UserOperations.Infra\\UserOperations.Infra.csproj",
       "packagesPath": "C:\\Users\\thiago.chagas\\.nuget\\packages\\",
-      "outputPath": "C:\\devs\\OrganizaDespensa\\UserOperations.Infra\\obj\\",
+      "outputPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\UserOperations.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thiago.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -650,11 +670,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\UserOperations.Core.csproj": {
-              "projectPath": "C:\\devs\\OrganizaDespensa\\OperacoesDeUsuario.Core\\OperacoesDeUsuario.Core\\UserOperations.Core.csproj"
+            "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\OrganizaDespesa.Infra.Core.csproj": {
+              "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\OrganizaDespesa.Infra.Core.csproj"
             },
-            "C:\\devs\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\OrganizaDespesa.Infra.Core.csproj": {
-              "projectPath": "C:\\devs\\OrganizaDespensa\\OrganizaDespesa.Infra.Core\\OrganizaDespesa.Infra.Core.csproj"
+            "C:\\devs\\DDDStudySample\\OrganizaDespensa\\UserOperations.Core\\UserOperations.Core.csproj": {
+              "projectPath": "C:\\devs\\DDDStudySample\\OrganizaDespensa\\UserOperations.Core\\UserOperations.Core.csproj"
             }
           }
         }

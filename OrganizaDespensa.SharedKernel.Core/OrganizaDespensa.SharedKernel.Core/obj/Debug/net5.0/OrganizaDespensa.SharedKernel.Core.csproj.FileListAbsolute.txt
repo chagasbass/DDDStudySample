@@ -10,3 +10,15 @@ C:\devs\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\ob
 C:\devs\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\obj\Debug\net5.0\OrganizaDespensa.SharedKernel.Core.dll
 C:\devs\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\obj\Debug\net5.0\ref\OrganizaDespensa.SharedKernel.Core.dll
 C:\devs\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\obj\Debug\net5.0\OrganizaDespensa.SharedKernel.Core.pdb
+C:\devs\DDDStudySample\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\bin\Debug\net5.0\OrganizaDespensa.SharedKernel.Core.deps.json
+C:\devs\DDDStudySample\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\bin\Debug\net5.0\OrganizaDespensa.SharedKernel.Core.dll
+C:\devs\DDDStudySample\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\bin\Debug\net5.0\ref\OrganizaDespensa.SharedKernel.Core.dll
+C:\devs\DDDStudySample\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\bin\Debug\net5.0\OrganizaDespensa.SharedKernel.Core.pdb
+C:\devs\DDDStudySample\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\obj\Debug\net5.0\OrganizaDespensa.SharedKernel.Core.csprojAssemblyReference.cache
+C:\devs\DDDStudySample\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\obj\Debug\net5.0\OrganizaDespensa.SharedKernel.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\devs\DDDStudySample\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\obj\Debug\net5.0\OrganizaDespensa.SharedKernel.Core.AssemblyInfoInputs.cache
+C:\devs\DDDStudySample\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\obj\Debug\net5.0\OrganizaDespensa.SharedKernel.Core.AssemblyInfo.cs
+C:\devs\DDDStudySample\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\obj\Debug\net5.0\OrganizaDespensa.SharedKernel.Core.csproj.CoreCompileInputs.cache
+C:\devs\DDDStudySample\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\obj\Debug\net5.0\OrganizaDespensa.SharedKernel.Core.dll
+C:\devs\DDDStudySample\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\obj\Debug\net5.0\ref\OrganizaDespensa.SharedKernel.Core.dll
+C:\devs\DDDStudySample\OrganizaDespensa.SharedKernel.Core\OrganizaDespensa.SharedKernel.Core\obj\Debug\net5.0\OrganizaDespensa.SharedKernel.Core.pdb

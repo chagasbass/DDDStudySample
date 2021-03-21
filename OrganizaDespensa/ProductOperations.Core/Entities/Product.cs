@@ -1,4 +1,6 @@
 ﻿using OrganizaDespensa.SharedKernel.Core.Entities;
+using ProductOperations.Core.Enums;
+using ProductOperations.Core.ValueObjects;
 
 namespace ProductOperations.Core.Entities
 {
@@ -7,47 +9,45 @@ namespace ProductOperations.Core.Entities
         public ProductData ProductData { get; private set; }
         public DateTimeProduct DateTimeProduct { get; private set; }
         public ProductInformation ProductInformation { get; private set; }
-        public Category Category { get; private set; }
+        public string Category { get; private set; }
         public string Status { get; private set; }
         public string UserId { get; private set; }
 
         protected Product() { }
 
         public Product(ProductData productData, DateTimeProduct dateTimeProduct, ProductInformation productInformation,
-           Category category, string userId)
+           string category, string userId)
         {
             ProductData = productData;
             DateTimeProduct = dateTimeProduct;
             ProductInformation = productInformation;
             Category = category;
-            Status = StatusProduto.QuantidadeIdeal.ToString();
-            UserId = usuario;
-        }
-
-        public bool VerificarSeProdutoEstaNaValidade()
-        {
-            var dataAtual = DateTime.Now;
-
-            if (DatasDoProduto.DataDeValidade > dataAtual)
-                return true;
-
-            return false;
+            Status = ProductStatus.IDEAL.Name;
+            UserId = userId;
         }
 
         public void AlterarStatus(string status) => Status = status;
 
-        public void AlterarCategoria(Categoria categoria) => Category = categoria;
+        public void ChangeCategory(string category) => Category = category;
 
-        public void AlterarDadosDoProduto(DadosProduto dadosDoProduto) => DadosDoProduto = dadosDoProduto;
+        public void ChangeDateTimeProduct(DateTimeProduct dateTimeProduct) => DateTimeProduct = dateTimeProduct;
 
-        public void AlterarDatasDoProduto(DatasProduto datasProduto) => DatasDoProduto = datasProduto;
+        public void ChangeProductData(ProductData productData) => ProductData = productData;
 
-        public void AlterarInformacoesDoProduto(InformacaoProduto informacaoProduto)
+        public void ChangeProductInformation(ProductInformation productInformation)
         {
-            InformacoesDoProduto = informacaoProduto;
+            ProductInformation = productInformation;
 
-            if (informacaoProduto.Quantidade == 0)
-                Status = StatusProduto.Comprar.ToString();
+            if (!productInformation.VerifyQuantity())
+                Status = ProductStatus.BUY.Name;
+        }
+
+        public bool VerifyQuantity() => ProductInformation.VerifyQuantity();
+
+        public void ChangeStatus(string status)
+        {
+            var productStatus = ProductStatus.GetProductStatusByName(status);
+            Status = productStatus.Name;
         }
     }
 }
